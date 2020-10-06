@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Easiest image comparison method</title>
+    
+    <link rel="stylesheet" href="/style.css">    
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <!--
+      Directions: set `--image1` and `--image2` to the comparison images.
+      Set the `<img>` to the sames as `--image1` so that it will use it's dimensions
+
+      Override the default starting position by setting `--current-position` on the `<image-comparison>`
+    -->
+    <image-comparison
+      style="--image1: url('https://loremflickr.com/640/480/dogs/'); --image2: url('https://loremflickr.com/640/480/cats/');">
+      <img src="https://loremflickr.com/640/480/dogs/">
+    </image-comparison>
+    
+    <image-comparison
+      style="--image1: url('https://loremflickr.com/320/240/men/'); --image2: url('https://loremflickr.com/320/240/women/');">
+      <img src="https://loremflickr.com/320/240/men/">
+    </image-comparison>
+    
+    <!-- Override the default starting position example -->
+    <image-comparison
+      style="--current-position: 25%; --image1: url('https://loremflickr.com/160/120/car/'); --image2: url('https://loremflickr.com/160/120/house/');">
+      <img src="https://loremflickr.com/160/120/car/">
+    </image-comparison>
+  </body>
+</html>

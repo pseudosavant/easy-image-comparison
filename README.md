@@ -19,6 +19,9 @@ the `<img>` to the same sources as `--image1`;
 </image-comparison>
 ```
 
+## Demo
+Try it out on [Glitch here](https://css-var-image-comparison.glitch.me/).
+
 License: MIT
 
 &copy;2020 Paul Ellis
